@@ -17,9 +17,9 @@
       {{ .Content }}
       {{ if eq .Type "posts" }}
       {{ end }}
-      {{ if eq .Title "Projects" }}
+      {{ if eq .Title "Views" }}
       <ul class="list">
-        {{ range where .Site.Pages.ByDate.Reverse "Section" "projects" }}
+        {{ range where .Site.Pages.ByDate.Reverse "Section" "views" }}
           {{ if ne .Kind "section" }}
           <li>
             <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>

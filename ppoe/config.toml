@@ -1,4 +1,4 @@
-baseURL = "https://laloe74.github.io/"
+baseURL = "/"
 languageCode = "zh-cn"
 title = "绿 松 石"
 disableKinds = ["section"]
@@ -10,7 +10,10 @@ minify = true
 disableHugoGeneratorInject = false
 
 
-
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  
 [privacy]
   [privacy.disqus]
     disable = true
@@ -71,9 +74,9 @@ disableHugoGeneratorInject = false
     weight     = -111
 
   [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects/"
+    identifier = "views"
+    name       = "Views"
+    url        = "/views/"
     weight     = -30
 
   [[menu.main]]
