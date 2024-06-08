@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://poemgreen.xyz"
 languageCode = "zh-cn"
 title = "绿 松 石"
 disableKinds = ["section"]
