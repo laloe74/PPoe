@@ -1,5 +1,6 @@
 baseURL = "https://poemgreen.xyz"
 languageCode = "zh-cn"
+defaultContentLanguage = "zh"
 title = "绿 松 石"
 disableKinds = ["section"]
 disqusShortname = ""
