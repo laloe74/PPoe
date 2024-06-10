@@ -59,8 +59,8 @@ h1, h2, h3, h4, h5, strong, b {
 }
 
 pre {
-    //white-space: pre-wrap;
-    //word-break: break-all
+    white-space: pre-wrap;
+    word-break: break-all
 }
 
 header {
@@ -225,10 +225,4 @@ hr {
 img {
     max-width: 100%;
     height: auto;
-}
-
-
-
-@font-face {  
-  font-display: fallback;  
 }
