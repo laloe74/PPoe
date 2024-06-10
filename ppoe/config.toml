@@ -33,6 +33,7 @@ disableHugoGeneratorInject = false
   author = "bernardlaloe74@gmail.com"
   copyright = ""
   logo = ""
+  omitGeneratorMeta = true
 
 [frontmatter]
   date  = [":filename", ":default"]
@@ -51,6 +52,9 @@ disableHugoGeneratorInject = false
 [outputs]
   home = ["HTML"]
   section = ["HTML"]
+
+[server]
+livereload = false
 
 [menu]
   [[menu.main]]
