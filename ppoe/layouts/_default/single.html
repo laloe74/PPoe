@@ -13,11 +13,11 @@
         <img src="{{ . }}"></img>
       {{ end }}</a>
       {{ end }}
-      <!-- <h2 class="post">{{ .Title }}</h2> -->
+      <h2 class="post">{{ .Title }}</h2>
       {{ .Content }}
       {{ if eq .Type "posts" }}
       {{ end }}
-      {{ if eq .Title "Views" }}
+      {{ if eq .Title "诗歌评论" }}
       <ul class="list">
         {{ range where .Site.Pages.ByDate.Reverse "Section" "views" }}
           {{ if ne .Kind "section" }}
