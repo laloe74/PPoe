@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   hugo:
     image: jakejarvis/hugo-extended:latest
@@ -11,4 +9,3 @@ services:
     environment:
       - HUGO_ENV=production
     restart: always
-    
