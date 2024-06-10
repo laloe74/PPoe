@@ -29,7 +29,7 @@ disableHugoGeneratorInject = false
     disable = true
 
 [params]
-  description = "A private collection of poems"
+  description = "My private collection of poems by other authors"
   author = "bernardlaloe74@gmail.com"
   copyright = ""
   logo = ""
