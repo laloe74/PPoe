@@ -2,22 +2,9 @@
 title: About
 ---
 
-# Listed
 
-Listed is a minimalistic Hugo blogging theme.
+个人诗歌收藏集，仅作为分享使用，不公开展示，版权归作者所有。  
+侵权联系：bernardlaloe74@gmail.com  
 
-### Features
-
-- Minimalistic, clean and simple design
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Tags
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast
+Personal poetry collection, for sharing only, not for public display, copyright belongs to the author.  
+Contact: bernardlaloe74@gmail.com  

@@ -10,11 +10,10 @@ paginate = 9999
 minify = true
 disableHugoGeneratorInject = false
 
+[params.robots]
+  noindex = true
+  nofollow = true
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  
 [privacy]
   [privacy.disqus]
     disable = true
@@ -29,20 +28,19 @@ disableHugoGeneratorInject = false
   [privacy.youtube]
     disable = true
 
-
 [params]
-  description = "绿 松 石"
-  author = ""
+  description = "A collection of personal poems"
+  author = "bernardlaloe74@gmail.com"
   copyright = ""
   logo = ""
 
 [frontmatter]
   date  = [":filename", ":default"]
-  author = ""
+  author = "bernardlaloe74@gmail.com"
   github = ""
   facebook = ""
   og_image = ""
-  sitename = "Liste"
+  sitename = "绿 松 石"
   twitter = ""
 
 [permalinks]
@@ -51,21 +49,8 @@ disableHugoGeneratorInject = false
   photos = "/:year/:month/:day/:filename"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML"]
   section = ["HTML"]
-
-[outputFormats.RSS]
-  mediatype = "application/rss"
-  baseName = "atom"
-
-[outputFormats.JSON]
-  mediatype = "application/json"
-  baseName = "feed"
-
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
 
 [menu]
   [[menu.main]]
