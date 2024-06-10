@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  hugo:
+    image: jakejarvis/hugo-extended:latest
+    command: server --buildDrafts --buildFuture --bind 0.0.0.0 --baseURL "https://poemgreen.xyz" --appendPort=false
+    ports:
+      - 1313:1313
+    volumes:
+      - ./:/src
+    restart: always
+    
