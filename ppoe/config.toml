@@ -8,7 +8,7 @@ pygmentsCodeFences = false
 pygmentsUseClasses = false
 paginate = 9999
 minify = true
-disableHugoGeneratorInject = false
+disableHugoGeneratorInject = true
 disableLiveReload = true
 
 [params.robots]
