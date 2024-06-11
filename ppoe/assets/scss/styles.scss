@@ -28,15 +28,16 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 2rem;
-    color: #000000;
-    background-color: #fdfdfc;  
-    background-image: url('/noise-light.png');
-    background-repeat: repeat;
-    background-size: auto;
+    color: #0e0e0e;
+    background-color: #fdfdfc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    //background-image: url('/noise-light.png');
+    //background-repeat: repeat;
+    //background-size: auto;
 }
 
-
- 
 .skip-link {
   position: absolute;
   top: -40px;
@@ -225,4 +226,29 @@ hr {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.custom-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        color: #cbcbcb;
+        background-color: #1c1c1c;  
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a.custom-link {
+        color: #cbcbcb;
+    }
+
 }
