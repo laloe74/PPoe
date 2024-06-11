@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="zh">
+<html lang="en">
   {{ partial "head.html" . }}
 <body>
+  <a class="skip-link" href="#main">Skip to main</a>
 <main id="main">
   <div class="content">
     {{ partial "header.html" . }}
@@ -13,11 +14,15 @@
         <img src="{{ . }}"></img>
       {{ end }}</a>
       {{ end }}
+
+      {{ if ne .Title "views" }}
       <h2 class="post">{{ .Title }}</h2>
       {{ .Content }}
+      {{ end }}
       {{ if eq .Type "posts" }}
       {{ end }}
-      {{ if eq .Title "诗歌评论" }}
+      {{ if eq .Title "views" }}
+      <p class="post">{{ .Content }}</p>
       <ul class="list">
         {{ range where .Site.Pages.ByDate.Reverse "Section" "views" }}
           {{ if ne .Kind "section" }}
