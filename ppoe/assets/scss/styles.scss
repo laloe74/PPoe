@@ -1,11 +1,16 @@
 @font-face {
-    font-family: 'PingFangSC-Light';
+    font-family: 'PingFangSC-Light'; //300
     src: url('/font/PingFangSC-Light.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'PingFangSC-Regular';
+    font-family: 'PingFangSC-Regular'; //400
     src: url('/font/PingFangSC-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'PingFangSC-Semibold'; //600
+    src: url('/font/PingFangSC-Semibold.woff2') format('woff2');
 }
 
 @font-face {
@@ -55,13 +60,13 @@ body {
 
 h1, h2, h3, h4, h5, strong { 
     font-size: inherit;
-    font-weight: 600;
+    font-weight: 400;
     //text-transform: uppercase;
 }
 
 b { 
     font-size: inherit;
-    font-weight: 800;
+    font-weight: 600;
     //text-transform: uppercase;
 }
 
