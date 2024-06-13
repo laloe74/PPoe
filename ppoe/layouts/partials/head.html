@@ -12,6 +12,8 @@
   <link rel="shortcut icon" href="{{ absURL "assets/favicon.png" }}">
   {{ if eq hugo.Environment "production" }}
   <script async src="https://umami.poemgreen.xyz/script.js" data-website-id="36f9199a-14c9-435c-a6df-bfd7826c1f31"></script>
+  <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+  <script>LA.init({id:"3Ij5Vq1WKFNCLRVP",ck:"3Ij5Vq1WKFNCLRVP",autoTrack:true})</script>
   {{ end }}
   {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
   <style>{{ $styles.Content | safeCSS }}</style>
