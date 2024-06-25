@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="64x64" href="{{ absURL "assets/favicon64x64.png" }}">
   <link rel="icon" type="image/png" sizes="192x192" href="{{ absURL "assets/favicon192x192.png" }}">
   <link rel="shortcut icon" href="{{ absURL "assets/favicon.png" }}">
-  <script defer src="https://umami.poemgreen.xyz/hello" data-website-id="5d0aacf3-4114-4bef-938e-c479441b3e1e"></script>
   {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
   <style>{{ $styles.Content | safeCSS }}</style>
+  <script defer src="https://umami.poemgreen.xyz/script.js" data-website-id="5d0aacf3-4114-4bef-938e-c479441b3e1e"></script>
 </head>
